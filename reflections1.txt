@@ -1,0 +1,36 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+
+Viewing a diff between two file versions shows us the changes made to one file with respect to the other. For ex, if file_old.txt is working correctly as a program and 
+file_new.txt shows errors at run-time, we can easily spot the differences between the 2 files using a diff -u on Linux. The difference between the two files will show 
+us the bug as one of the files is working correctly while the other is not. 
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Having easy access to the entire history of a file will help us revert to older versions in case we introduce a bug in the newer version. Having access to an older working version 
+saves time and human labor while making sure the program is working correctly. Else, time and labor would be wasted in writing an older working version of the program from scratch. 
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Git is specifically built for programming, which in turn depends on multiple files running together to produce a desired output. 
+Google docs, on the other hand, takes a more general approach designed to cater to the needs of common man rather than a specific set of individuals. 
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+Git log gives us a log of all the commits made to the repository, where as the command git diff helps us in differentiating between two commits.
+Using the above two commands will help us view the history of files in a more efficient manner. 
+
+
+How might using version control make you more confident to make changes that could break something?
+
+You can always revert back to an older working version of the code using git checkout if we end up breaking something. 
+Hence, using version control makes a programmer more confident to make changes that could break something. 
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to try using it Git for learning newer concepts related to version control. 
+
